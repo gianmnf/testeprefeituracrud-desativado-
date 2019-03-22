@@ -13001,7 +13001,7 @@
       "Microsoft.AspNetCore.App >= 2.2.0",
       "Microsoft.AspNetCore.Razor.Design >= 2.2.0",
       "Microsoft.NETCore.App >= 2.2.0",
-      "MongoDB.driver >= 2.8.0"
+      "MongoDB.Driver >= 2.8.0"
     ]
   },
   "packageFolders": {
@@ -13060,7 +13060,7 @@
             "version": "[2.2.0, )",
             "autoReferenced": true
           },
-          "MongoDB.driver": {
+          "MongoDB.Driver": {
             "target": "Package",
             "version": "[2.8.0, )"
           }

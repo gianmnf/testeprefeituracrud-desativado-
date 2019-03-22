@@ -2,49 +2,49 @@ using System.Collections.Generic;
 using System.Linq;
 using FuncsApi.Modelos;
 using Microsoft.Extensions.Configuration;
-using MongoDB.driver;
+using MongoDB.Driver;
 
 namespace FuncsApi.Servicos
 {
     public class FuncionarioService
     {
-        private readonly IMongoCollection<Funcionario> _funcionarios;
+        private readonly IMongoCollection<Funcionarios> _funcionarios;
 
-        public FuncionarioService(Iconfiguration config)
+        public FuncionarioService(IConfiguration config)
         {
             var cliente = new MongoClient(config.GetConnectionString("FuncionariosDB"));
             var bd = cliente.GetDatabase("FuncionariosDB");
-            _funcionarios = bd.GetCollection<Funcionario>("Funcionarios");
+            _funcionarios = bd.GetCollection<Funcionarios>("Funcionarios");
         }
 
-        public List<Funcionario> Get()
+        public List<Funcionarios> Get()
         {
             return _funcionarios.Find(funcionario => true).ToList();
         }
 
-        public Funcionario GetFuncionario(string id)
+        public Funcionarios Get(string id)
         {
-            return _funcionarios.Find<Funcionario>(funcionario => funcionario.Id == id).FirstOrDefault();
+            return _funcionarios.Find<Funcionarios>(funcionario => funcionario.Id == id).FirstOrDefault();
         }
 
-        public Funcionario Criar(Funcionario funcionario)
+        public Funcionarios Criar(Funcionarios funcionario)
         {
             _funcionarios.InsertOne(funcionario);
             return funcionario;
         }
 
-        public void Atualizar(string id, Funcionario funcionarioIn)
+        public void Atualizar(string id, Funcionarios funcionarioIn)
         {
             _funcionarios.ReplaceOne(funcionario => funcionario.Id == id, funcionarioIn);
         }
 
-        public void Remover(Funcionario funcionarioIn){
-            _funcionarios.DeleteOne(funcionarioIn => funcionario.Id == funcionarioIn.Id);
+        public void Remover(Funcionarios funcionarioIn){
+            _funcionarios.DeleteOne(funcionario => funcionario.Id == funcionarioIn.Id);
         }
 
         public void Remover(string id)
         {
-            _funcionarios.DeleteOne(funcionario => funcionario.Id = id);
+            _funcionarios.DeleteOne(funcionario => funcionario.Id == id);
         }
     }
 }

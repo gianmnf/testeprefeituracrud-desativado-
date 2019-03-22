@@ -1,0 +1,14 @@
+/home/veloxsz/FuncsApi/obj/Debug/netcoreapp2.2/FuncsApi.csprojAssemblyReference.cache
+/home/veloxsz/FuncsApi/obj/Debug/netcoreapp2.2/FuncsApi.csproj.CoreCompileInputs.cache
+/home/veloxsz/FuncsApi/obj/Debug/netcoreapp2.2/FuncsApi.RazorAssemblyInfo.cache
+/home/veloxsz/FuncsApi/obj/Debug/netcoreapp2.2/FuncsApi.RazorAssemblyInfo.cs
+/home/veloxsz/FuncsApi/obj/Debug/netcoreapp2.2/FuncsApi.AssemblyInfoInputs.cache
+/home/veloxsz/FuncsApi/obj/Debug/netcoreapp2.2/FuncsApi.AssemblyInfo.cs
+/home/veloxsz/FuncsApi/bin/Debug/netcoreapp2.2/FuncsApi.deps.json
+/home/veloxsz/FuncsApi/bin/Debug/netcoreapp2.2/FuncsApi.runtimeconfig.json
+/home/veloxsz/FuncsApi/bin/Debug/netcoreapp2.2/FuncsApi.runtimeconfig.dev.json
+/home/veloxsz/FuncsApi/bin/Debug/netcoreapp2.2/FuncsApi.dll
+/home/veloxsz/FuncsApi/bin/Debug/netcoreapp2.2/FuncsApi.pdb
+/home/veloxsz/FuncsApi/obj/Debug/netcoreapp2.2/FuncsApi.RazorTargetAssemblyInfo.cache
+/home/veloxsz/FuncsApi/obj/Debug/netcoreapp2.2/FuncsApi.dll
+/home/veloxsz/FuncsApi/obj/Debug/netcoreapp2.2/FuncsApi.pdb

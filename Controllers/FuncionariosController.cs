@@ -17,13 +17,13 @@ namespace FuncsApi.Controllers
         }
 
         [HttpGet]
-        public ActionResult<List<Funcionario>> GetAction()
+        public ActionResult<List<Funcionarios>> GetAction()
         {
             return _funcionarioService.Get();
         }
 
-        [HttpGet("{id:length(24)}", name="GetFuncionario")]
-        public ActionResult<Funcionario> Get(string id)
+        [HttpGet("{id:length(24)}", Name="GetFuncionario")]
+        public ActionResult<Funcionarios> Get(string id)
         {
             var funcionario = _funcionarioService.Get(id);
 
@@ -36,7 +36,7 @@ namespace FuncsApi.Controllers
         }
 
         [HttpPost]
-        public ActionResult<Funcionario> Criar(Funcionario funcionario)
+        public ActionResult<Funcionarios> Criar(Funcionarios funcionario)
         {
             _funcionarioService.Criar(funcionario);
 
@@ -44,7 +44,7 @@ namespace FuncsApi.Controllers
         }
 
         [HttpPut("{id:length(24)}")]
-        public IActionResult Atualizar(string id, Funcionario funcionarioIn)
+        public IActionResult Atualizar(string id, Funcionarios funcionarioIn)
         {
             var funcionario = _funcionarioService.Get(id);
 
