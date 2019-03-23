@@ -12,3 +12,17 @@
 /home/veloxsz/FuncsApi/obj/Debug/netcoreapp2.2/FuncsApi.RazorTargetAssemblyInfo.cache
 /home/veloxsz/FuncsApi/obj/Debug/netcoreapp2.2/FuncsApi.dll
 /home/veloxsz/FuncsApi/obj/Debug/netcoreapp2.2/FuncsApi.pdb
+/home/veloxsz/testeprefeituracrud/bin/Debug/netcoreapp2.2/FuncsApi.deps.json
+/home/veloxsz/testeprefeituracrud/bin/Debug/netcoreapp2.2/FuncsApi.runtimeconfig.json
+/home/veloxsz/testeprefeituracrud/bin/Debug/netcoreapp2.2/FuncsApi.runtimeconfig.dev.json
+/home/veloxsz/testeprefeituracrud/bin/Debug/netcoreapp2.2/FuncsApi.dll
+/home/veloxsz/testeprefeituracrud/bin/Debug/netcoreapp2.2/FuncsApi.pdb
+/home/veloxsz/testeprefeituracrud/obj/Debug/netcoreapp2.2/FuncsApi.csprojAssemblyReference.cache
+/home/veloxsz/testeprefeituracrud/obj/Debug/netcoreapp2.2/FuncsApi.csproj.CoreCompileInputs.cache
+/home/veloxsz/testeprefeituracrud/obj/Debug/netcoreapp2.2/FuncsApi.RazorAssemblyInfo.cache
+/home/veloxsz/testeprefeituracrud/obj/Debug/netcoreapp2.2/FuncsApi.RazorAssemblyInfo.cs
+/home/veloxsz/testeprefeituracrud/obj/Debug/netcoreapp2.2/FuncsApi.AssemblyInfoInputs.cache
+/home/veloxsz/testeprefeituracrud/obj/Debug/netcoreapp2.2/FuncsApi.AssemblyInfo.cs
+/home/veloxsz/testeprefeituracrud/obj/Debug/netcoreapp2.2/FuncsApi.RazorTargetAssemblyInfo.cache
+/home/veloxsz/testeprefeituracrud/obj/Debug/netcoreapp2.2/FuncsApi.dll
+/home/veloxsz/testeprefeituracrud/obj/Debug/netcoreapp2.2/FuncsApi.pdb

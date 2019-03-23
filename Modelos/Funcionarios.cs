@@ -15,8 +15,8 @@ namespace FuncsApi.Modelos
         [BsonElement("idade")]
         public double idade {get; set;}
 
-        /*[BsonElement("dataNascimento")]
-        public System.DateTime dataNascimento {get; set;}*/
+        [BsonElement("dataNascimento")]
+        public System.DateTime dataNascimento {get; set;}
 
         [BsonElement("funcao")]
         public string funcao {get; set;}

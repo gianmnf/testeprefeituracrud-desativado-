@@ -13011,11 +13011,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/veloxsz/FuncsApi/FuncsApi.csproj",
+      "projectUniqueName": "/home/veloxsz/testeprefeituracrud/FuncsApi.csproj",
       "projectName": "FuncsApi",
-      "projectPath": "/home/veloxsz/FuncsApi/FuncsApi.csproj",
+      "projectPath": "/home/veloxsz/testeprefeituracrud/FuncsApi.csproj",
       "packagesPath": "/home/veloxsz/.nuget/packages/",
-      "outputPath": "/home/veloxsz/FuncsApi/obj/",
+      "outputPath": "/home/veloxsz/testeprefeituracrud/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/share/dotnet/sdk/NuGetFallbackFolder"
